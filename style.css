@@ -6,7 +6,7 @@
 
 }
 
-html,body{
+body{
     height: 100%;
     width: 100%;
 }
@@ -132,11 +132,14 @@ nav i{
 
 
 
-.img1 {
-    height: 50%;
+.img1  img{
     overflow: hidden;
-    width: 50%;
+    min-width: 45vw;
+    width: 47vw;
+    height:450px ;
+    object-fit: cover;
     display: flex; /* Use "flex" instead of "flexbox" */
     align-items: center;
-    justify-content: center; /* Add this property to center the content horizontally */
+    justify-content: center;
+    margin:10px  0px;
 }
